@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+/* font-family: 'Oxygen', sans-serif; */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap'); */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+#chatname{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+body{
+    background-image: linear-gradient(rgb(204, 24, 24), rgb(57, 57, 226));
+    height: 100vh;
+}
+
+.containers{
+
+    border: 2px solid black;
+    background-color: rgb(212, 195, 228);
+    height: 60vh;
+    margin: auto;
+    width: 60%;
+    border-radius: 8px;
+    overflow-y: auto;
+    overflow-wrap: inherit;
+}
+
+.message {
+    border: 1px solid black;
+    background-color: rgb(185, 204, 172);
+    margin: 14px;
+    width: 30%;
+    padding: 6px 9px;
+    border-radius: 14px;
+    font-size: 17.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+.alerts {
+    float: none;
+    clear: both;
+    display: block;
+    margin:4px auto;
+    border: 1px solid black;
+    background-color: rgb(175, 195, 202);
+    width: 132px;
+    padding: 3px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    width: 700px;
+    margin: 3px 0px;
+    padding: 6px 18px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 12px;
+    padding: 3px 15px;
+    width: 77px;
+    font-size: 18px;
+    border: 1.8px solid rgb(25, 32, 30);
+    border-radius: 4px;
+    margin-left: 1015px;
+    margin-top: -36px;
+    outline: none;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    background-color: rgb(103, 179, 156);
+    color: white;
+    border: 2px solid rgb(39, 65, 57);
+    text-shadow: 1px 1px 1px black;
+}
+
+#messageInp {
+    display: flex;
+    width: 662px;
+    margin: 3px 0px;
+    padding: 5px 35px;
+    border: 1px solid black;
+    border-radius: 18px;
+    margin-left: 274px;
+    outline: none;
+    font-size: 19.5px;
+    line-height: -1px;
+    background-color: white;
+    text-align: initial;
+}
